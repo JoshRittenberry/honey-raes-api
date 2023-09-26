@@ -37,22 +37,10 @@
             "isStaff": true
         },
         {
-            "id": 7,
-            "fullName": "Jeremy Bakker",
             "email": "jeremy@bakker.com",
-            "isStaff": true
-        },
-        {
-            "id": 8,
-            "fullName": "Megan Smith",
-            "email": "megan@smith.com",
-            "isStaff": false
-        },
-        {
-            "id": 9,
-            "fullName": "John Doe",
-            "email": "johndoe@email.com",
-            "isStaff": false
+            "fullName": "Jeremy Bakker",
+            "isStaff": true,
+            "id": 7
         }
     ],
     "customers": [
@@ -73,18 +61,6 @@
             "address": "161 Wessington Place",
             "phoneNumber": "865-266-0357",
             "userId": 3
-        },
-        {
-            "id": 4,
-            "address": "1234 Elm Street",
-            "phoneNumber": "555-123-4567",
-            "userId": 5
-        },
-        {
-            "id": 5,
-            "address": "456 Oak Avenue",
-            "phoneNumber": "555-987-6543",
-            "userId": 7
         }
     ],
     "employees": [
@@ -105,18 +81,6 @@
             "specialty": "Printer Repair",
             "rate": 29.45,
             "userId": 6
-        },
-        {
-            "id": 4,
-            "specialty": "Android",
-            "rate": 35.99,
-            "userId": 7
-        },
-        {
-            "id": 5,
-            "specialty": "Laptop Repair",
-            "rate": 85.50,
-            "userId": 8
         }
     ],
     "serviceTickets": [
@@ -142,39 +106,32 @@
             "dateCompleted": "2023-08-12T03:06:27.975Z"
         },
         {
-            "id": 4,
             "userId": 1,
-            "description": "Desktop won't turn on",
+            "description": "Desktop wont turn on",
             "emergency": false,
-            "dateCompleted": ""
+            "dateCompleted": "",
+            "id": 4
         },
         {
-            "id": 5,
             "userId": 3,
             "description": "Speaker phone does not work on iPhone",
             "emergency": true,
-            "dateCompleted": ""
+            "dateCompleted": "",
+            "id": 5
         },
         {
             "id": 6,
             "userId": 2,
-            "description": "Airpods won't connect",
+            "description": "Airpods wont connect",
             "emergency": false,
             "dateCompleted": ""
         },
         {
-            "id": 7,
             "userId": 2,
             "description": "Router is broken",
             "emergency": true,
-            "dateCompleted": ""
-        },
-        {
-            "id": 8,
-            "userId": 4,
-            "description": "Macbook Pro won't boot",
-            "emergency": true,
-            "dateCompleted": ""
+            "dateCompleted": "",
+            "id": 7
         }
     ],
     "employeeTickets": [
@@ -184,29 +141,19 @@
             "serviceTicketId": 1
         },
         {
-            "id": 2,
-            "employeeId": 5,
-            "serviceTicketId": 2
-        },
-        {
             "id": 3,
             "employeeId": 1,
             "serviceTicketId": 4
         },
         {
-            "id": 4,
             "employeeId": 2,
-            "serviceTicketId": 3
+            "serviceTicketId": 2,
+            "id": 4
         },
         {
-            "id": 5,
             "employeeId": 2,
-            "serviceTicketId": 7
-        },
-        {
-            "id": 6,
-            "employeeId": 4,
-            "serviceTicketId": 8
+            "serviceTicketId": 7,
+            "id": 6
         }
     ]
 }
